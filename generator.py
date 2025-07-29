@@ -6,9 +6,9 @@ import string
 
 chars = string.ascii_letters + string.digits
 
-# randomly select 32 characters to create password.
+# randomly select 16 characters to create password.
 
-password = ''.join([random.choice(chars) for x in range(32)])
+password = ''.join([random.choice(chars) for x in range(16)])
 
 # print resulting password.
 
